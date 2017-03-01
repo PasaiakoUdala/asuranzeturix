@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 
-# Form implementation generated from reading ui file 'hobespenak.ui'
+# Form implementation generated from reading ui file 'ui/hobespenak.ui'
 #
-# Created by: PyQt5 UI code generator 5.8
+# Created by: PyQt5 UI code generator 5.5.1
 #
 # WARNING! All changes made in this file will be lost!
 
@@ -33,24 +33,25 @@ class Ui_Dialog(object):
         self.label_4 = QtWidgets.QLabel(self.groupBox)
         self.label_4.setGeometry(QtCore.QRect(0, 160, 81, 18))
         self.label_4.setObjectName("label_4")
-        self.lineEdit = QtWidgets.QLineEdit(self.groupBox)
-        self.lineEdit.setGeometry(QtCore.QRect(90, 30, 291, 30))
-        self.lineEdit.setObjectName("lineEdit")
-        self.lineEdit_2 = QtWidgets.QLineEdit(self.groupBox)
-        self.lineEdit_2.setGeometry(QtCore.QRect(90, 70, 291, 30))
-        self.lineEdit_2.setObjectName("lineEdit_2")
-        self.lineEdit_3 = QtWidgets.QLineEdit(self.groupBox)
-        self.lineEdit_3.setGeometry(QtCore.QRect(90, 110, 291, 30))
-        self.lineEdit_3.setObjectName("lineEdit_3")
-        self.lineEdit_4 = QtWidgets.QLineEdit(self.groupBox)
-        self.lineEdit_4.setGeometry(QtCore.QRect(90, 150, 291, 30))
-        self.lineEdit_4.setObjectName("lineEdit_4")
+        self.txtZerbitzaria = QtWidgets.QLineEdit(self.groupBox)
+        self.txtZerbitzaria.setGeometry(QtCore.QRect(90, 30, 291, 30))
+        self.txtZerbitzaria.setObjectName("txtZerbitzaria")
+        self.txtPortua = QtWidgets.QLineEdit(self.groupBox)
+        self.txtPortua.setGeometry(QtCore.QRect(90, 70, 291, 30))
+        self.txtPortua.setObjectName("txtPortua")
+        self.txtUsername = QtWidgets.QLineEdit(self.groupBox)
+        self.txtUsername.setGeometry(QtCore.QRect(90, 110, 291, 30))
+        self.txtUsername.setObjectName("txtUsername")
+        self.txtPassword = QtWidgets.QLineEdit(self.groupBox)
+        self.txtPassword.setGeometry(QtCore.QRect(90, 150, 291, 30))
+        self.txtPassword.setObjectName("txtPassword")
         self.groupBox_2 = QtWidgets.QGroupBox(Dialog)
         self.groupBox_2.setGeometry(QtCore.QRect(10, 230, 421, 80))
+        self.groupBox_2.setCheckable(False)
         self.groupBox_2.setObjectName("groupBox_2")
-        self.lineEdit_5 = QtWidgets.QLineEdit(self.groupBox_2)
-        self.lineEdit_5.setGeometry(QtCore.QRect(90, 40, 291, 30))
-        self.lineEdit_5.setObjectName("lineEdit_5")
+        self.txtEmaila = QtWidgets.QLineEdit(self.groupBox_2)
+        self.txtEmaila.setGeometry(QtCore.QRect(90, 40, 291, 30))
+        self.txtEmaila.setObjectName("txtEmaila")
         self.label_5 = QtWidgets.QLabel(self.groupBox_2)
         self.label_5.setGeometry(QtCore.QRect(0, 50, 81, 18))
         self.label_5.setObjectName("label_5")
@@ -68,6 +69,6 @@ class Ui_Dialog(object):
         self.label_2.setText(_translate("Dialog", "Portua:"))
         self.label_3.setText(_translate("Dialog", "Erabiltzailea:"))
         self.label_4.setText(_translate("Dialog", "Pasahitza:"))
-        self.groupBox_2.setTitle(_translate("Dialog", "GroupBox"))
+        self.groupBox_2.setTitle(_translate("Dialog", "Erabiltzailea"))
         self.label_5.setText(_translate("Dialog", "Emaila"))
 

@@ -96,7 +96,7 @@
      <string>Pasahitza:</string>
     </property>
    </widget>
-   <widget class="QLineEdit" name="lineEdit">
+   <widget class="QLineEdit" name="txtZerbitzaria">
     <property name="geometry">
      <rect>
       <x>90</x>
@@ -106,7 +106,7 @@
      </rect>
     </property>
    </widget>
-   <widget class="QLineEdit" name="lineEdit_2">
+   <widget class="QLineEdit" name="txtPortua">
     <property name="geometry">
      <rect>
       <x>90</x>
@@ -116,7 +116,7 @@
      </rect>
     </property>
    </widget>
-   <widget class="QLineEdit" name="lineEdit_3">
+   <widget class="QLineEdit" name="txtUsername">
     <property name="geometry">
      <rect>
       <x>90</x>
@@ -126,7 +126,7 @@
      </rect>
     </property>
    </widget>
-   <widget class="QLineEdit" name="lineEdit_4">
+   <widget class="QLineEdit" name="txtPassword">
     <property name="geometry">
      <rect>
       <x>90</x>
@@ -147,9 +147,12 @@
     </rect>
    </property>
    <property name="title">
-    <string>GroupBox</string>
+    <string>Erabiltzailea</string>
    </property>
-   <widget class="QLineEdit" name="lineEdit_5">
+   <property name="checkable">
+    <bool>false</bool>
+   </property>
+   <widget class="QLineEdit" name="txtEmaila">
     <property name="geometry">
      <rect>
       <x>90</x>

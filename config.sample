@@ -4,5 +4,5 @@ port = 5038
 user = username
 passwd = passwd
 
-[user]
+[USER]
 email = auskalo@norden.com
