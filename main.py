@@ -1,17 +1,23 @@
-#! /usr/bin/env python
-
-import os.path
+import configparser
+import os.path , sys
 from os.path import expanduser
+import sys
+from PyQt5.QtWidgets import QApplication, QMainWindow, QDialog
+from PyQt5 import uic
+from ui.hobespenak import Ui_Dialog
 
 home = expanduser("~")
-SETTINGS = home + "/.asuranzeturix/config.yml"
+SETTINGS = home + "/.asuranzeturix/config"
 
 
-def main( ):
-    print("Yaml irakurtzen")
 
 
-if __name__ == "__main__":
-    if not os.path.isfile(SETTINGS):
-        print("Ez da existitzen")
-    main()
+app = QApplication()
+
+window = QDialog()
+
+ui = Ui_Dialog()
+ui.setupUi(window)
+
+window.show()
+sys.exit(app.exec_())
